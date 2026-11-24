@@ -1,0 +1,8 @@
+{
+  "phi-4-mini-instruct": {
+    "repo": "microsoft/Phi-4-mini-instruct",
+    "revision": "cfbefacb99257ffa30c83adab238a50856ac3083",
+    "license": "MIT",
+    "quantization": "4bit"
+  }
+}

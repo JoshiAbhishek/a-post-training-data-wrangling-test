@@ -1,0 +1,11 @@
+{
+  "//": "Parked prototype (line-level text edits come first): strict, but without noUncheckedIndexedAccess until it is revived.",
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "noUncheckedIndexedAccess": false
+  },
+  "include": [
+    "."
+  ],
+  "exclude": []
+}
