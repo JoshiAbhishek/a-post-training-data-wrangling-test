@@ -1,0 +1,15 @@
+[project]
+name = "post-training-data-wrangling-models"
+version = "0.0.0"
+description = "Model tooling (download, convert, serve, fine-tune) for the DSL synthesis experiments"
+requires-python = ">=3.14,<3.15"
+dependencies = [
+  "mlx-lm",
+  "huggingface-hub",
+]
+
+[tool.uv]
+# Use only the python.org interpreter; never download Python builds.
+package = false
+python-downloads = "never"
+python-preference = "only-system"

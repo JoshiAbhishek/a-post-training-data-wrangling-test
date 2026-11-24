@@ -1,0 +1,9 @@
+node_modules/
+samples/
+data/
+adapters/
+.venv/
+uv.lock
+package-lock.json
+*.md
+src/table/
